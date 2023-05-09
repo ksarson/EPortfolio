@@ -2,7 +2,7 @@
     "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
     "plugins": ["prettier"],
     "parserOptions": {
-        "project": "./tsconfig.json"
+        "project": "./eportfolio-server/tsconfig.json"
     },
     "rules": {
         "prettier/prettier": "error"
