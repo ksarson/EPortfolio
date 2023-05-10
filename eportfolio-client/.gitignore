@@ -1,7 +1,9 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# ignore .env files
-*.env
+# ignore top level files
+*.prettierrc
+*.app.json
+*.spec.json
 
 # Compiled output
 /dist
