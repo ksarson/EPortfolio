@@ -1,0 +1,126 @@
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-bdZiL+vOI1pV/pnWdBbyr5y5fsdRjKjlIGYg5F5lLZ3qQjCDLg21fV5iWcljK7fz0I/u1ql7VQeAIJxLPTjhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+/>
+
+<style>
+    :host {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+            Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+            'Segoe UI Symbol';
+        font-size: 14px;
+        color: #333;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 8px 0;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .spacer {
+        flex: 1;
+    }
+
+    .toolbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        background-color: #242424;
+        color: white;
+        font-weight: 600;
+    }
+
+    .toolbar img {
+        margin: 0 16px;
+    }
+
+    .toolbar #personal-icon {
+        height: 60px;
+        margin: 0 8px;
+    }
+
+    .toolbar #github-icon,
+    #linkedin-icon,
+    #email-icon,
+    #pdf-icon {
+        font-size: 30px;
+        margin: 0 8px;
+        color: #00adb5;
+    }
+
+    .toolbar #github-icon:hover,
+    #linkedin-icon:hover,
+    #email-icon:hover,
+    #pdf-icon:hover {
+        opacity: 0.8;
+    }
+</style>
+
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+    <!-- Header -->
+    <img src="../assets/logo.png" id="personal-icon" />
+    <div class="spacer"></div>
+    <span style="font-size: 30px; color: #00adb5">
+        Kolby Sarson, Software Developer
+    </span>
+    <div class="spacer"></div>
+    <!-- Linkedin Link -->
+    <a
+        aria-label="Kolby on Linkedin"
+        target="_blank"
+        rel="noopener"
+        href="https://linkedin.com/in/sarsonk/"
+        title="linkedin"
+    >
+        <i class="fa-brands fa-linkedin" id="linkedin-icon"></i>
+    </a>
+    <!-- Github Link -->
+    <a
+        aria-label="Kolby on Github"
+        target="_blank"
+        rel="noopener"
+        href="https://github.com/ksarson"
+        title="github"
+    >
+        <i class="fa-brands fa-github" id="github-icon"></i>
+    </a>
+    <!-- Email Link -->
+    <a
+        aria-label="Kolby on Email"
+        target="_blank"
+        rel="noopener"
+        href="mailto:ksarson10@gmail.com"
+        title="email"
+    >
+        <i class="fa-solid fa-envelope" id="email-icon"></i>
+    </a>
+    <!-- Resume Link -->
+    <a
+        aria-label="Kolby Resume"
+        target="_blank"
+        rel="noopener"
+        href="../assets/KSarsonResumeWeb.pdf"
+        title="pdf"
+    >
+        <i class="fas fa-file-pdf" id="pdf-icon"></i>
+    </a>
+</div>
