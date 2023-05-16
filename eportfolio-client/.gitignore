@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # ignore top level files
-*.prettierrc
 *.app.json
 *.spec.json
 
